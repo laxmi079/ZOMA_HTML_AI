@@ -1,0 +1,144 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: url('../img/bg.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Main Layout */
+  main {
+    flex: 1; /* Ensures main content takes up available space */
+    padding-bottom: 50px; /* Adds spacing to avoid overlapping with footer */
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+    box-shadow: 0 2px 5px rgba(255, 0, 0, 0.5);
+  }
+  
+  header .logo img {
+    width: 120px;
+  }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+  }
+  
+  header ul li a:hover {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero input {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .hero input:focus {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+  }
+  
+  /* Food Delivery Section */
+  .food-delivery {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .food-delivery h2 {
+    font-size: 28px;
+    color: #ff0000;
+    margin-bottom: 30px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    max-width: 300px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature:hover {
+    transform: scale(1.05);
+  }
+  
+  .feature img {
+    width: 100px;
+    margin-bottom: 15px;
+  }
+  
+  .feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ff0000;
+  }
+  
+  .feature p {
+    font-size: 14px;
+    color: #ddd;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    margin-top: auto; /* Push footer to the bottom of the page */
+  }
+  
